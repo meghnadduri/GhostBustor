@@ -2,7 +2,7 @@
 
 **AI-powered prediction of ghost fishing net accumulation zones — so cleanup crews know where to look before more marine life is harmed.**
 
-> 🏆 Built as a team project for **TartanHacks 2026** by **Nyshita Chalasani, Kayona Verma, Asha Boyapati, and Meghna Adduri**
+> Built as a team project for **TartanHacks 2026** by **Nyshita Chalasani, Kayona Verma, Asha Boyapati, and Meghna Adduri**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
