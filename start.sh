@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# GhostGear Startup Script
+# GhostBustor Startup Script
 # Usage: ./start.sh
 
-echo "🎣 Starting GhostGear..."
+echo "🎣 Starting GhostBustor..."
 echo ""
 
 # Check Python
@@ -34,7 +34,7 @@ echo "✅ Frontend: http://localhost:8080"
 echo ""
 
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "🎣 GhostGear is running!"
+echo "🎣 GhostBustor is running!"
 echo ""
 echo "📊 Dashboard: http://localhost:8080"
 echo "📡 API:       http://localhost:8000"
@@ -45,5 +45,5 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo ""
 
 # Wait for interrupt
-trap "kill $BACKEND_PID $FRONTEND_PID 2>/dev/null; echo ''; echo '🛑 GhostGear stopped'; exit 0" INT
+trap "kill $BACKEND_PID $FRONTEND_PID 2>/dev/null; echo ''; echo '🛑 GhostBustor stopped'; exit 0" INT
 wait

@@ -22,7 +22,7 @@ Base = declarative_base()
 # Database connection
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:postgres@localhost:5432/ghostgear"
+    "postgresql://postgres:postgres@localhost:5432/ghostbustor"
 )
 
 engine = create_engine(DATABASE_URL, echo=False)

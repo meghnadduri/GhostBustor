@@ -8,7 +8,7 @@ Includes trained ML model with persistence
 from fastapi import FastAPI, HTTPException, Query, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import RedirectResponse, HTMLResponse, FileResponse, FileResponse
+from fastapi.responses import RedirectResponse, HTMLResponse, FileResponse
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 import numpy as np

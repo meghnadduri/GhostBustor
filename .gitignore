@@ -9,10 +9,10 @@ venv/
 ENV/
 .venv
 
-# Models
-models/*.pkl
-models/*.joblib
-!models/.gitkeep
+# Trained models (large binaries; regenerate via /train or on first prediction)
+backend/models/*.pkl
+backend/models/*.joblib
+!backend/models/.gitkeep
 
 # Environment
 .env
@@ -34,5 +34,3 @@ models/*.joblib
 # OS
 .DS_Store
 Thumbs.db
-
-
